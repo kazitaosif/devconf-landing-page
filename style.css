@@ -78,14 +78,20 @@ ul li a{
 /* hero section start */
 
 .hero-parent{
-     background-image:url(assets/banner.jpg);
+     background-image: url("assets/banner.jpg");
      background-size:cover;
      background-position:center;
      height:800px;
      margin-top: 10px;
+     position: relative;
     
-
 }
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.5);
+}
+
 
 .hero-content{
 
